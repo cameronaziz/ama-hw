@@ -1,0 +1,12 @@
+{
+  "verbose": true,
+  "ignore": [
+    "*.test.js",
+    "fixtures/*"
+  ],
+  "ext": "ts,tsx,json,css",
+  "execMap": {
+    "rb": "ruby",
+    "pde": "processing --sketch={{pwd}} --run"
+  }
+}
