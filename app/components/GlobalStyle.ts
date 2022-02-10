@@ -11,7 +11,7 @@ const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: "Didot";
     src: local("Didot"),
-    url("./fonts/didot-bold.ttf") format("truetype");
+    url("./fonts/didot-bold.otf") format("truetype");
     font-weight: bold;
   }
 `
