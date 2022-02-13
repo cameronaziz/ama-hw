@@ -908,33 +908,22 @@ figure {
   border-color: transparent;
 }
 
-#fh5co-wrapper {
-  overflow-x: hidden;
-  position: relative;
-}
-
-.fh5co-offcanvas {
+/* .fh5co-offcanvas {
   overflow: hidden;
 }
 
 .fh5co-offcanvas #fh5co-wrapper {
   overflow: hidden !important;
-}
+} */
 
-#fh5co-page {
-  position: relative;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}
-
+/* 
 .fh5co-offcanvas #fh5co-page {
   -moz-transform: translateX(-240px);
   -webkit-transform: translateX(-240px);
   -ms-transform: translateX(-240px);
   -o-transform: translateX(-240px);
   transform: translateX(-240px);
-}
+} */
 
 @media screen and (max-width: 768px) {
   #fh5co-menu-wrap {

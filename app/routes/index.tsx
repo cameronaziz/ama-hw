@@ -1,14 +1,15 @@
+import Gallery from '~/pages/gallery';
 import Hero from '~/pages/hero';
+import { Page } from '../components/layout';
 import Couple from '../pages/couple';
 
 const Index = () => {
   return (
-    <div id="fh5co-wrapper">
-      <div id="fh5co-page">
-        <Hero />
-        <Couple />
-      </div>
-    </div>
+    <Page>
+      <Hero />
+      <Couple />
+      <Gallery />
+    </Page>
   );
 };
 

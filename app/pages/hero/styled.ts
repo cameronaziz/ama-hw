@@ -79,6 +79,8 @@ export const TitleContainer = styled.div`
   right: 0;
   position: absolute;
   z-index: 1;
+  max-width: 90vw;
+  margin: 0 auto;
 `;
 
 export const TableCell = styled.div`
