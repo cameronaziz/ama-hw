@@ -26,14 +26,14 @@ export const Overlay = styled.div`
 
 export const Title = styled.h1`
   color: #FFF;
-  font-family: "Quintessential", cursive;
-  font-weight: 400;
-  font-size: 6rem;
+  font-family: ${({ theme }) => theme.font.cursive};
+  font-weight: regular;
+  font-size: ${({ theme }) => theme.size.xl};
 `;
 
 export const SubTitle = styled.h2`
   color: #FFF;
-  font-family: "Quintessential", cursive;
+  font-family: ${({ theme }) => theme.font.cursive};
   font-weight: 400;
   font-size: 5rem;
 `;

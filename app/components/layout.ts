@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
   overflow-x: hidden;
   position: relative;
+  background-color: ${({ theme }) => theme.palate.white};
 `;
 
 export const Page = styled.div`

@@ -1,14 +1,13 @@
-import Gallery from '~/pages/gallery';
-import Hero from '~/pages/hero';
+import Pages from '~/pages';
 import { Page } from '../components/layout';
-import Couple from '../pages/couple';
 
 const Index = () => {
   return (
     <Page>
-      <Hero />
-      <Couple />
-      <Gallery />
+      <Pages.Hero />
+      <Pages.Couple />
+      <Pages.Gallery />
+      <Pages.Footer />
     </Page>
   );
 };
